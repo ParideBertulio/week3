@@ -1,6 +1,6 @@
-### This Script is divided into 5 steps:
-
-### The script  get data from:
+#### This Script is divided into 5 steps:
+ciao
+##### The script  get data from:
 
 ### https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
