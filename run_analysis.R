@@ -49,7 +49,7 @@ names(dbS) <- "subject"
 cleaned <- cbind(dbS, dbY, dbX)
 #******* use txt instead of csv only beacuse the page to upload the file 
 #******* request txt file **********************************************
-write.csv(cleaned, file = "merged_data.txt")
+write.csv(cleaned, file = "output/merged_data.txt")
 
 #******************************************************************************
 # 5. Creates a 2nd, independent tidy data set with the average of each variable 
@@ -75,4 +75,4 @@ for (s in 1:numSubjects) {
 
 #******* use txt instead of csv only beacuse the page to upload the file 
 #******* request txt file **********************************************
-write.csv(result, file = "averages.txt")
+write.csv(result, file = "output/averages.txt")
