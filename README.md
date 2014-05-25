@@ -15,4 +15,4 @@ You can simply download the full repository and run "run_analysis.R" into RStudi
 
 The two output files created by the script was stored in the subdirectory output.
 
-For full details please refer to CodeBook.TXT file (stored in the root of this repository)
+For full details please refer to CodeBook.txt file (stored in the root of this repository)
