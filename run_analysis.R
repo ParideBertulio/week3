@@ -1,8 +1,11 @@
+#***************************************************************************************
+## Here are the data for the project: 
 # https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+#
 # A full description is available at the site where the data was obtained:
 # http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 # **************************************************************************************
-# **************************************************************************************
+
 
 
 #*****************************************************************
@@ -26,9 +29,9 @@ dbY <- rbind(y_train, y_test)
 #*******************************************************************************************
 
 features <- read.table("features.txt")
-indices_of_good_features <- grep("-mean\\(\\)|-std\\(\\)", features[, 2])
-dbX <- dbX[, indices_of_good_features]
-names(dbX) <- features[indices_of_good_features, 2]
+index <- grep("-mean\\(\\)|-std\\(\\)", features[, 2])
+dbX <- dbX[, index]
+names(dbX) <- features[index, 2]
 names(dbX) <- gsub("\\(|\\)", "", names(dbX))
 names(dbX) <- tolower(names(X))
 
