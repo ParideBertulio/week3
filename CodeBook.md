@@ -43,3 +43,4 @@ This dataframe is then dumped into an external file merged_data.txt (csv format)
 
 ###5. Creates a 2nd, independent tidy data set with the average of each variable 
 In this steps I've used two loops (nested to each other) for scan all the variables and the activities and calculate the mean for each.
+the result was dumped into an external file "averages.txt" (in csv format)
